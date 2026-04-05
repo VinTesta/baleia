@@ -166,6 +166,18 @@ CrewAI é uma ferramenta de construção, não uma rede. Um creator que usa Crew
 
 Mesma dinâmica do CrewAI: elizaOS constrói agents, mas não os conecta, não os paga, não os ranqueia. Agents criados com elizaOS são candidatos naturais a se conectarem à rede via SDK.
 
+### 4.6 Vantagens Defensáveis
+
+O Baleia constrói seis barreiras defensáveis que se reforçam mutuamente:
+
+| Barreira | Por que é defensável | Comparação |
+|---|---|---|
+| **Protocolo proprietário** | Não pode ser copiado sem reconstrução completa. Não é open-source — concorrentes não podem fazer fork | TCP/IP levou décadas para ter alternativas viáveis |
+| **Reputação acumulada on-network** | Creators com histórico de uso e rating alto perdem tudo se migrarem. O custo de saída cresce com o tempo | Sellers do eBay não migram para marketplaces novos — perdem avaliações |
+| **Efeito de rede bilateral** | Cada novo agent torna a rede mais valiosa para todos os participantes. Mais agents → mais útil → mais creators → ciclo virtuoso | Uber: mais motoristas → menos espera → mais passageiros → mais motoristas |
+| **Dados de uso proprietários** | O volume de transações gera dados que melhoram continuamente o algoritmo de recomendação. Novos entrantes partem do zero | Google: bilhões de buscas refinaram o PageRank — impossível replicar do zero |
+| **SDK + developer experience** | Familiaridade técnica cria lock-in. Migrar exige reescrever integrações — custo alto para o creator técnico | Stripe: devs resistem a mudar de processador porque já conhecem o SDK |
+| **Wallet automática** | Remove a barreira de entrada Web3 para creators não-crypto. Nenhum concorrente de protocolo de agents oferece essa simplicidade onboarding | Robinhood simplificou investimento → capturou uma geração que nunca teria aberto conta em corretora |
 
 ## 5. Como o Cliente Final é Melhor Atendido
 
@@ -202,19 +214,6 @@ A combinação de SDK + no-code + lives + WASM + reputação com ZK cria um flyw
 7. **→ Reputação acumulada torna migração cara** (lock-in orgânico)
 
 O protocolo não compete com ferramentas de construção (CrewAI, elizaOS) nem com protocolos de camada única (x402, A2A). Ele compete como **infraestrutura completa** — e nesse posicionamento, é o único produto no mercado.
-
-### 5.5 Moat — Vantagens Defensáveis
-
-O Baleia constrói seis barreiras defensáveis que se reforçam mutuamente:
-
-| Barreira | Por que é defensável | Comparação |
-|---|---|---|
-| **Protocolo proprietário** | Não pode ser copiado sem reconstrução completa. Não é open-source — concorrentes não podem fazer fork | TCP/IP levou décadas para ter alternativas viáveis |
-| **Reputação acumulada on-network** | Creators com histórico de uso e rating alto perdem tudo se migrarem. O custo de saída cresce com o tempo | Sellers do eBay não migram para marketplaces novos — perdem avaliações |
-| **Efeito de rede bilateral** | Cada novo agent torna a rede mais valiosa para todos os participantes. Mais agents → mais útil → mais creators → ciclo virtuoso | Uber: mais motoristas → menos espera → mais passageiros → mais motoristas |
-| **Dados de uso proprietários** | O volume de transações gera dados que melhoram continuamente o algoritmo de recomendação. Novos entrantes partem do zero | Google: bilhões de buscas refinaram o PageRank — impossível replicar do zero |
-| **SDK + developer experience** | Familiaridade técnica cria lock-in. Migrar exige reescrever integrações — custo alto para o creator técnico | Stripe: devs resistem a mudar de processador porque já conhecem o SDK |
-| **Wallet automática** | Remove a barreira de entrada Web3 para creators não-crypto. Nenhum concorrente de protocolo de agents oferece essa simplicidade onboarding | Robinhood simplificou investimento → capturou uma geração que nunca teria aberto conta em corretora |
 
 Essas barreiras não operam isoladamente — elas se compõem. Um creator que usa o SDK (lock-in técnico), acumula reputação (lock-in de histórico) e recebe pagamentos na wallet automática (conveniência) enfrenta três custos de migração simultâneos. É a combinação que torna o moat defensável, não cada elemento individualmente.
 
