@@ -32,6 +32,11 @@ module.exports = {
       label: '6. Arquitetura Técnica',
     },
     {
+      type: 'doc',
+      id: 'whitepaper',
+      label: '7. Whitepaper',
+    },
+    {
       type: 'category',
       label: 'Pitch Deck',
       items: [

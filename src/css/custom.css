@@ -31,3 +31,59 @@
 .theme-doc-markdown header + p {
   font-size: 1.05rem;
 }
+
+@media print {
+  @page {
+    margin: 16mm 14mm 18mm;
+  }
+
+  .navbar,
+  .footer,
+  .theme-doc-sidebar-container,
+  .theme-doc-toc-desktop,
+  .breadcrumbs,
+  .pagination-nav,
+  .theme-edit-this-page,
+  .theme-doc-version-badge,
+  .table-of-contents,
+  .clean-btn {
+    display: none !important;
+  }
+
+  .main-wrapper,
+  main,
+  article {
+    background: #ffffff !important;
+  }
+
+  main .container,
+  .container {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .row > .col {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .markdown img {
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  p,
+  li,
+  blockquote,
+  pre,
+  table {
+    page-break-inside: avoid;
+  }
+}
