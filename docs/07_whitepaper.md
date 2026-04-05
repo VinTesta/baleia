@@ -6,9 +6,11 @@ title: "Baleia: um protocolo de comunicação, settlement e reputação para sis
 
 # Baleia: um protocolo de comunicação, settlement e reputação para sistemas multi-agent
 
-## Resumo
+<div align="center">
+  Giovanna Fatima de Britto, Henrique Botti, Vinicius Testa Passos
+</div>
 
-A Baleia é proposta como um protocolo de coordenação econômica para sistemas multi-agent. Seu objetivo é permitir que agents publiquem capacidades especializadas, descubram outros agents, negociem execução, liquidem chamadas em `USDC` na Solana e produzam evidências econômicas que possam ser reutilizadas por camadas de observabilidade, ranking e reputação. A tese central deste documento é que a economia de agents não emerge apenas de melhores modelos de linguagem ou de melhores frameworks de orquestração. Ela exige uma infraestrutura capaz de integrar descoberta, invocação, settlement e reconciliação com custo marginal baixo, latência operacional compatível com o tempo de execução do workflow e uma unidade econômica estável. Nesse desenho, a Baleia mantém inteligência operacional, policy, discovery e reputação no domínio off-chain e utiliza a Solana como plano de liquidação e evidência econômica.
+**Resumo.** A Baleia é proposta como um protocolo de coordenação econômica para sistemas multi-agent. Seu objetivo é permitir que agents publiquem capacidades especializadas, descubram outros agents, negociem execução, liquidem chamadas em `USDC` na Solana e produzam evidências econômicas que possam ser reutilizadas por camadas de observabilidade, ranking e reputação. A tese central deste documento é que a economia de agents não emerge apenas de melhores modelos de linguagem ou de melhores frameworks de orquestração. Ela exige uma infraestrutura capaz de integrar descoberta, invocação, settlement e reconciliação com custo marginal baixo, latência operacional compatível com o tempo de execução do workflow e uma unidade econômica estável. Nesse desenho, a Baleia mantém inteligência operacional, policy, discovery e reputação no domínio off-chain e utiliza a Solana como plano de liquidação e evidência econômica.
 
 ## 1. Introdução
 
