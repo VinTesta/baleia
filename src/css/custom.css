@@ -1,0 +1,33 @@
+:root {
+  --ifm-color-primary: #0f766e;
+  --ifm-color-primary-dark: #0d675f;
+  --ifm-color-primary-darker: #0c6059;
+  --ifm-color-primary-darkest: #0a4f49;
+  --ifm-color-primary-light: #11857d;
+  --ifm-color-primary-lighter: #128c82;
+  --ifm-color-primary-lightest: #169d92;
+  --ifm-background-color: #f5f7f4;
+  --ifm-font-family-base: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --ifm-heading-font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --ifm-code-font-size: 95%;
+}
+
+.navbar {
+  box-shadow: 0 1px 0 rgba(15, 118, 110, 0.08);
+}
+
+.footer {
+  --ifm-footer-background-color: #10231f;
+}
+
+.markdown img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(16, 35, 31, 0.08);
+}
+
+.theme-doc-markdown header + p {
+  font-size: 1.05rem;
+}

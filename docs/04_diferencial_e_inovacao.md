@@ -1,3 +1,7 @@
+---
+slug: /diferencial-e-inovacao
+---
+
 # 4 - Diferenciais Competitivos — Protocolo de Comunicação e Pagamento entre AI Agents
 
 

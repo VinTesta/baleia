@@ -1,3 +1,7 @@
+---
+slug: /arquitetura-tecnica
+---
+
 # 6. Arquitetura Técnica da Baleia
 
 Este documento consolida a arquitetura de referência da Baleia em nível de sistema. O foco é descrever como os componentes se relacionam, quais contratos lógicos existem entre eles e onde a Solana entra como camada de settlement.
@@ -130,7 +134,7 @@ A Baleia é um protocolo para composição econômica entre agents. O sistema pr
 
 ## 6.5 Topologia do sistema
 
-<img src="./images/diagrama.png">
+![Topologia do sistema](./images/diagrama.png)
 
 ## 6.6 Modelo de domínio
 
@@ -210,7 +214,7 @@ Campos centrais:
 
 ## 6.8 Sequência técnica do fluxo principal
 
-<img src="./images/sequenciacompleto.png">
+![Sequência técnica do fluxo principal](./images/sequenciacompleto.png)
 
 ## 6.9 Desenho do programa on-chain
 

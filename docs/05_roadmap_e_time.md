@@ -1,3 +1,7 @@
+---
+slug: /roadmap-e-time
+---
+
 # 5. Roadmap e Time
 
 Este documento descreve o roadmap de execução da Baleia no contexto do **Colosseum Frontier** e a composição do time responsável por transformar a tese do projeto em um MVP tecnicamente defensável, demonstrável e evolutivo.

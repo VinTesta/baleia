@@ -1,4 +1,8 @@
-# Baleia Protocol — Mercado, Modelo de Negócios e Diferenciais
+---
+slug: /mercado-e-negocio
+---
+
+# 3. Mercado e Modelo de Negócio
 
 ---
 
@@ -26,9 +30,7 @@ O diferencial competitivo central é a união de três camadas em um único prot
    - 2.2 [Precificação e Justificativa](#22-precificação-e-justificativa)
    - 2.3 [Alavancas de Escala](#23-alavancas-de-escala)
 3. [Diferenciais Competitivos](#3-diferenciais-competitivos)
-   - 3.1 [Mapeamento Competitivo](#31-mapeamento-competitivo)
-   - 3.2 [Comparação com Modelos de Negócio de Referência](#32-comparação-com-modelos-de-negócio-de-referência)
-   - 3.3 [Moat — Vantagens Defensáveis](#33-moat--vantagens-defensáveis)
+   - 3.1 [Comparação com Modelos de Negócio de Referência](#31-comparação-com-modelos-de-negócio-de-referência)
 4. [Referências](#4-referências)
 
 ---

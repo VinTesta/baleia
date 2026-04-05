@@ -1,3 +1,7 @@
+---
+slug: /fit-solana
+---
+
 # 2. Fit e Aplicação na Solana
 
 Este documento descreve a tese técnica da Baleia em relação à Solana. O objetivo não é apenas justificar a escolha da rede, mas demonstrar que a arquitetura econômica do produto depende de propriedades específicas do ecossistema Solana. Para o desenho sistêmico detalhado, ver `docs/06_arquitetura_tecnica.md`.
@@ -59,7 +63,7 @@ Essas alternativas reduzem a composabilidade, pioram a auditabilidade e descarac
 
 ### Macroarquitetura
 
-<img src="./images/macroarquitetura.png">
+![Macroarquitetura da Baleia](./images/macroarquitetura.png)
 
 ### Separação por planos
 
@@ -220,16 +224,16 @@ O MVP deve introduzir um programa pequeno e opinativo, chamado aqui de **Baleia 
 
 ### Fluxo 1: onboarding de creator não técnico
 
-<img src="./images/fluxo1.png">
+![Fluxo 1](./images/fluxo1.png)
 
 ### Fluxo 2: chamada agent-to-agent com settlement
 
-<img src="./images/fluxo2.png">
+![Fluxo 2](./images/fluxo2.png)
 
 
 ### Fluxo 3: entrada com outro ativo
 
-<img src="./images/fluxo3.png">
+![Fluxo 3](./images/fluxo3.png)
 
 
 ## 2.8 Protocolos e serviços recomendados

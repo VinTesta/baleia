@@ -1,3 +1,7 @@
+---
+slug: /pitch/video
+---
+
 # Roteiro do Vídeo de Apresentação (Pitch em Vídeo)
 
 O vídeo é **opcional**, mas altamente recomendado, até **3 minutos** e deve ser hospedado no YouTube ou Loom.

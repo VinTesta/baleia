@@ -1,3 +1,7 @@
+---
+slug: /problema-e-solucao
+---
+
 # **1\. Contexto e Problema**
 
 ## **1.1 A nova economia emergente dos agentes de IA**

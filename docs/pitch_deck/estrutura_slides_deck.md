@@ -1,3 +1,7 @@
+---
+slug: /pitch/estrutura
+---
+
 # Estrutura do Pitch Deck (Máx. 10 Slides)
 
 O formato de submissão do Ideathon exige um **Pitch Deck de até 10 slides** respondendo perguntas específicas. 
